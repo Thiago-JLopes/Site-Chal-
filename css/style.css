@@ -152,4 +152,47 @@ ul#navegacao-menu a:hover {
 
 #rodape {
     clear: both;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
 }
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+/*Área lateral*/
+#estruturas-chale li {
+    padding: 8px;
+    height: 6em;
+    border-bottom: 1px solid #f3efcb;
+}
+
+#estruturas-chale li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+#estruturas-chale li a p{
+    font-size: 0.8em;
+    color: #000;
+}
+
+#estruturas-chale li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#estruturas-chale li:hover {
+    cursor: pointer;
+    background: #f6f3d6;
+}
+/*Área lateral*/
