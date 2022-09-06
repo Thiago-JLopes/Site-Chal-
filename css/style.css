@@ -14,6 +14,9 @@ body {
 /*Formatando container*/
 #container {
     background: #ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
 }
 /*Formatando container*/
 
@@ -32,6 +35,18 @@ body {
     height: 250px;
     top: 0;
     left: 0;
+    z-index: 1;
+}
+
+.logo a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -3000px;
 }
 
 #area-menu {
@@ -41,5 +56,6 @@ body {
     background: url(../imagens/topo-imagem-lateral.png) no-repeat;
     width: 450px;
     height: 250px;
+    z-index: 2;
 }
 /*Fim formatação do topo*/
